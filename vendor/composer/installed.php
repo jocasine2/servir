@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '2626fe91aefbe72a19f02843966f8dfcda544237',
+        'reference' => '033ec2741b82aebf647356aa76049e9bfe81da95',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '2626fe91aefbe72a19f02843966f8dfcda544237',
+            'reference' => '033ec2741b82aebf647356aa76049e9bfe81da95',
             'dev_requirement' => false,
         ),
         'glpi-project/tools' => array(

@@ -20,23 +20,23 @@
 
 // ** Configurações do banco de dados - Você pode pegar estas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define( 'DB_NAME', 'servirtoquewebco_wordpress' );
+define( 'DB_NAME', 'servi_db' );
 
 /** Usuário do banco de dados MySQL */
-define( 'DB_USER', 'servirtoquewebco_wordpress_admin' );
+define( 'DB_USER', 'mysql' );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', 'N1!nCcApc[E=' );
+define( 'DB_PASSWORD', '6838330aed335cda' );
 
 /** Nome do host do MySQL */
-define( 'DB_HOST', 'db' ); #localhost em produção
+define( 'DB_HOST', '172.17.0.10' ); #localhost em produção
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define( 'DB_CHARSET', 'utf8' );
 
 /** O tipo de Collate do banco de dados. Não altere isso se tiver dúvidas. */
 define( 'DB_COLLATE', '' );
-
+if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') $_SERVER['HTTPS']='on';
 /**#@+
  * Chaves únicas de autenticação e salts.
  *

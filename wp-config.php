@@ -23,7 +23,7 @@
 define( 'DB_NAME', 'servir_db' );
 
 /** Usuário do banco de dados MySQL */
-define( 'DB_USER', 'mysql' );
+define( 'DB_USER', 'servir' );
 
 /** Senha do banco de dados MySQL */
 define( 'DB_PASSWORD', 's3rv1r@Ati' );
